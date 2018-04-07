@@ -35,7 +35,7 @@ public class DeepFirstSearchGrap {
 
         Stack<Integer> st = new Stack<Integer>();
         st.push(startVertex);
-        while( !st.isEmpty()) {
+        while(!st.isEmpty()) {
             int n = st.pop();
             st.push(n);
             visited[n] = true;
@@ -58,3 +58,19 @@ public class DeepFirstSearchGrap {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

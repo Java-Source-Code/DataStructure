@@ -21,10 +21,10 @@ public class DFSDemo {
         grap.add(2,5);
 
         grap.add(2, 0);
-        grap.add(5,2);
+        grap.add(5,5);
 
 
-        grap.DFSExplore(0);
+        grap.DFSExplore(3);
 
     }
 }
